@@ -72,4 +72,4 @@ sudo apt install ./transliteracia-1.0_all.deb
    sudo cp ./transliteraciä.desktop /usr/share/applications/transliteraciä.desktop
    sudo cp ./translitguisvg.svg usr/share/icons/hicolor/scalable/apps/translitguisvg.svg
    ```
-   Всё! Программа установлена!
+Всё! Программа установлена!

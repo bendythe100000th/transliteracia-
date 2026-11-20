@@ -40,3 +40,11 @@
 
 # Установка
 Для Ubuntu/Debian/Linux Mint и других дистрибутивов Linux на базе Debian или на базе дистрибутивов на базе Debian : скачать deb-пакет `transliteracia-1.0_all.deb`, открыть его и установить
+Для остальных дистрибутивов Linux:
+1. Установить зависимости
+   Для Arch-based: ```sudo pacman -S python gtk3 python-gobject git```
+   Для Fedora, РОСА ФРЕШ или других дистрибутивов на базе Fedora/RedHat: ```sudo dnf install python3 gtk3 python3-gobject git```
+2. Скопировать все файлы в нужные директории
+   ```bash
+   код временно не написан, напишу когда скопирую себе в буфер обмена ссылку на репозиторий
+   ```

@@ -73,3 +73,4 @@ sudo apt install ./transliteracia-1.0_all.deb
    sudo cp ./translitguisvg.svg usr/share/icons/hicolor/scalable/apps/translitguisvg.svg
    ```
 Всё! Программа установлена!
+burmaldinok.tilda.ws

@@ -39,9 +39,17 @@
 | я | ä |
 
 # Программа в действии
+
+
 https://github.com/user-attachments/assets/7dbcf2b3-f6e4-4c6f-85cf-c639bbc94457
+
+
 Это мой транслитератор транслитерирует текст.
+
+
 https://github.com/user-attachments/assets/0c71ae58-0a9d-45e9-ad25-974446f5b86d
+
+
 А это как он запускается (исполняемый файл после установки будет лежать в /usr/bin/transliteraciä/py/transliteraciä.py и я предусмотрел что после установки он может не открыться из-за недостатка прав поэтому открывается через sudo) и как я в него ввожу призыв скачать линукс
 # Установка
 Для Ubuntu/Debian/Linux Mint и других дистрибутивов Linux на базе Debian или на базе дистрибутивов на базе Debian : скачать deb-пакет `transliteracia-1.0_all.deb`, открыть его и установить:

@@ -3,6 +3,7 @@
 "Transliteraciä" - ĕto grafičeskoe priloženie dlä transliteracii russkogo äzyka po lučšeĭ v mire tablice transliteracii!
 # Таблица транслитерации, которая используется в приложении
 | Кириллица | Latinica |
+|-----------|----------|
 | а | a |
 | б | b |
 | в | v |

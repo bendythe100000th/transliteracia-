@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Transliteraciä
+Comment=Transliteraciä russkogo teksta Транслитерация русского текста
+Exec=sudo python3 /usr/bin/transliteraciä/py/transliteraciä.py
+Icon=translitguisvg
+Terminal=true
+Categories=TextTools;Office

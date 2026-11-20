@@ -39,12 +39,23 @@
 | я | ä |
 
 # Установка
-Для Ubuntu/Debian/Linux Mint и других дистрибутивов Linux на базе Debian или на базе дистрибутивов на базе Debian : скачать deb-пакет `transliteracia-1.0_all.deb`, открыть его и установить
+Для Ubuntu/Debian/Linux Mint и других дистрибутивов Linux на базе Debian или на базе дистрибутивов на базе Debian : скачать deb-пакет `transliteracia-1.0_all.deb`, открыть его и установить:
+```bash
+sudo apt install git
+git clone https://github.com/bendythe100000th/transliteracia-.git
+cd ./transliteracia-/
+sudo apt install ./transliteracia-1.0_all.deb
+```
 Для остальных дистрибутивов Linux:
 1. Установить зависимости
    Для Arch-based: ```sudo pacman -S python gtk3 python-gobject git```
    Для Fedora, РОСА ФРЕШ или других дистрибутивов на базе Fedora/RedHat: ```sudo dnf install python3 gtk3 python3-gobject git```
 2. Скопировать все файлы в нужные директории
    ```bash
-   код временно не написан, напишу когда скопирую себе в буфер обмена ссылку на репозиторий
+   git clone https://github.com/bendythe100000th/transliteracia-.git
+   cd ./transliteracia-/
+   sudo cp ./transliteraciä.py /usr/bin/transliteraciä/py/transliteraciä.py
+   sudo cp ./transliteraciä.desktop /usr/share/applications/transliteraciä.desktop
+   sudo cp ./translitguisvg.svg usr/share/icons/hicolor/scalable/apps/translitguisvg.svg
    ```
+   Всё! Система установлена!

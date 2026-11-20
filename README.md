@@ -39,7 +39,8 @@
 | я | ä |
 
 # Программа в действии
-
+https://github.com/bendythe100000th/transliteracia-/raw/refs/heads/main/Запись%20экрана%20от%202026-11-21%2001-11-20.mp4
+Это мой транслитератор транслитерирует текст.
 # Установка
 Для Ubuntu/Debian/Linux Mint и других дистрибутивов Linux на базе Debian или на базе дистрибутивов на базе Debian : скачать deb-пакет `transliteracia-1.0_all.deb`, открыть его и установить:
 ```bash

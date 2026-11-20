@@ -39,8 +39,10 @@
 | я | ä |
 
 # Программа в действии
-https://github.com/bendythe100000th/transliteracia-/raw/refs/heads/main/Запись%20экрана%20от%202026-11-21%2001-11-20.mp4
+https://github.com/user-attachments/assets/7dbcf2b3-f6e4-4c6f-85cf-c639bbc94457
 Это мой транслитератор транслитерирует текст.
+https://github.com/user-attachments/assets/0c71ae58-0a9d-45e9-ad25-974446f5b86d
+А это как он запускается (исполняемый файл после установки будет лежать в /usr/bin/transliteraciä/py/transliteraciä.py и я предусмотрел что после установки он может не открыться из-за недостатка прав поэтому открывается через sudo) и как я в него ввожу призыв скачать линукс
 # Установка
 Для Ubuntu/Debian/Linux Mint и других дистрибутивов Linux на базе Debian или на базе дистрибутивов на базе Debian : скачать deb-пакет `transliteracia-1.0_all.deb`, открыть его и установить:
 ```bash
@@ -50,6 +52,7 @@ cd ./transliteracia-/
 sudo apt install ./transliteracia-1.0_all.deb
 ```
 Для остальных дистрибутивов Linux:
+Рассчитан метод установки на дистрибутивы с наличием sudo.
 1. Установить зависимости
    Для Arch-based: ```sudo pacman -S python gtk3 python-gobject git```
    Для Fedora, РОСА ФРЕШ или других дистрибутивов на базе Fedora/RedHat: ```sudo dnf install python3 gtk3 python3-gobject git```
@@ -61,4 +64,4 @@ sudo apt install ./transliteracia-1.0_all.deb
    sudo cp ./transliteraciä.desktop /usr/share/applications/transliteraciä.desktop
    sudo cp ./translitguisvg.svg usr/share/icons/hicolor/scalable/apps/translitguisvg.svg
    ```
-   Всё! Система установлена!
+   Всё! Программа установлена!
